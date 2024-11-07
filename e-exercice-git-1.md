@@ -155,11 +155,21 @@ git push origin v1.0
 19. Affichez l'historique des commits.
 
 ```sh
-git log
+git log --online
 q
 ```
 
 20. Affichez les différences entre les deux derniers commits.
+
+```sh
+git diff HEAD^ HEAD
+```
+
+OR
+
+```sh
+git diff hash-commit1 hash-commit2
+```
 
 21. Annulez le dernier commit (sans supprimer les modifications).
 
