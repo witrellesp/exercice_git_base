@@ -172,6 +172,7 @@ git diff hash-commit1 hash-commit2
 ```
 
 21. Annulez le dernier commit (sans supprimer les modifications).
+
 ```sh
 git reset --soft HEAD^
 ```
