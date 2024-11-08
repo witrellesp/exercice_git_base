@@ -184,6 +184,9 @@ git branch -d develop
 
 
 23. Configurez un alias Git _st_ pour simplifier une commande fréquente _status_.
+```sh
+git config --global alias.st status 
+```
 
 
 24. Assurez-vous d'être dans la branche `main`, puis ajoutez-y le fichier `data.txt` avec comme contenu: `Hello World!`.
@@ -203,7 +206,15 @@ git checkout -b
 > Que constatez-vous ? La branche est créée et ensuite on switch dans cette branche.
 
 26. Listez les sauvegarde `stash` effectué au point 25.
+```sh
+git stash list
+```
 
 27. Restaurez les modifications mises de côté (avec le `stash` au point 25) dans la branche `feature/new-data`.
-
+```sh
+git stash pop
+```
 28. Vérifiez le statut du repo.
+```sh
+git st
+```
