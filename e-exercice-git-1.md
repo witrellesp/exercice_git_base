@@ -191,10 +191,16 @@ git branch -d develop
 > Ne pas ajouter cette modification à la **staging area**!
 
 25. Mettez temporairement de côté `stash` pour sauvegarder temporairement les modifications non commitées.
+```sh
+git stash
+```
 
 26. Ajouter une branche `feature/new-data` avec `git checkout`.
+```sh
+git checkout -b
+```
 
-> Que constatez-vous ?
+> Que constatez-vous ? La branche est créée et ensuite on switch dans cette branche.
 
 26. Listez les sauvegarde `stash` effectué au point 25.
 
