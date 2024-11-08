@@ -177,8 +177,13 @@ git reset --soft HEAD^
 ```
 
 22. Supprimez la branche `develop` après fusion.
+```sh
+git branch -d develop
+```
+
 
 23. Configurez un alias Git _st_ pour simplifier une commande fréquente _status_.
+
 
 24. Assurez-vous d'être dans la branche `main`, puis ajoutez-y le fichier `data.txt` avec comme contenu: `Hello World!`.
 
